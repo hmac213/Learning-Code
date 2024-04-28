@@ -1,0 +1,39 @@
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-selectors {
+    width: 10%;
+}
+
+.register-form {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-tab {
+    justify-content: center;
+}
+
+.register {
+    text-align: center;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+}
+
+.register-text, .register-inline {
+    width: 80%;
+    height: 1.75rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.register-inline {
+    display: inline-block;
+    width: 35%;
+}

@@ -20,6 +20,13 @@
 
 .home-left-container {
     margin-left: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-image {
+    height: 65vh;
 }
 
 .welcome-message {

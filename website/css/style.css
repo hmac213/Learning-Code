@@ -1,0 +1,52 @@
+.home-container {
+    display: flex;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.home-left-container, .home-right-container {
+    width: 50%;
+}
+
+.home-right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10vw;
+}
+
+.home-left-container {
+    margin-left: 10vw;
+}
+
+.welcome-message {
+    font-size: 3rem;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.log-in, .register {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--secondary-color);
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.log-in {
+    background-color: var(--secondary-background);
+    margin-right: 5px;
+}
+
+.register {
+    background-color: var(--accent-color);
+    margin-left: 5px;
+}

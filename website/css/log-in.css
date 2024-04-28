@@ -1,0 +1,52 @@
+.log-in-container {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log-in-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 40%;
+    border: solid 1px var(--secondary-background);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 var(--secondary-background);
+}
+
+.log-in {
+    text-align: center;
+    color: var(--accent-color);
+}
+
+.log-in-input {
+    width: 80%;
+    height: 1.75rem;
+    line-height: 1.5rem;
+    vertical-align: middle;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.log-in-button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.register-link {
+    margin-top: 20px;
+    text-decoration: none;
+    color: var(--accent-color);
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="nav-container">
+        <div class="nav-logo-container">
+            <h2 class="nav-logo"><a class="nav-link" href="index.html">GoMath</a></h2>
+        </div>
+        <div class="nav-pages-container">
+            <ul class="nav-pages-list">
+                <li class="nav-page"><a class="nav-link" href="#">About Us</a></li>
+                <li class="nav-page"><a class="nav-link" href="#">Course Content</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="register-container">
+        <form action="" method="post" class="register-form">
+            <h1 class="register">Register</h1>
+
+            <div class="register-tab" id="register-info">
+                <input required type="text" name="first-name" class="register-text" id="register-first-name" placeholder="first name">
+                <input required type="text" name="last-name" class="register-text" id="register-last-name" placeholder="last name">
+                <input required type="email" name="email" class="register-text" id="register-email" placeholder="email">
+                <input required type="password" name="password" class="register-text" id="register-password" placeholder="password">
+                <input required type="text" name="address-line-1" class="register-text" id="register-address-line-1" placeholder="address line 1">
+                <input type="text" name="address-line-2" class="register-text" id="register-address-line-2" placeholder="address line 2">
+                <input required type="text" name="city" class="register-text" id="register-city" placeholder="city">
+                <input required type="text" name="state" class="register-inline" id="register-state" placeholder="state">
+                <input required type="number" name="zip-code" class="register-inline" id="register-zip-code" placeholder="zip code">
+            </div>
+
+            <div class="register-tab" id="register-questions">
+                <p class="question-description">
+                    In no more than 200 words, please describe how your relationship with math has evolved over time. What made you decide that competition math was something you wanted to pursue? Have you always enjoyed solving these types of problems? Don't be afraid to be specific.
+                </p>
+                <textarea name="question-1" class="register-question" id="register-question-1" cols="30" rows="10"></textarea>
+                <p class="question-description">
+                    In no more than 200 words, please tell us about one of your mathematical weak spots. How do you hope to improve in this area? How can we help you along the way?
+                </p>
+                <textarea name="question-2" class="register-question" id="register-question-2" cols="30" rows="10"></textarea>
+                <p class="question-description">
+                    In no more than 200 words, please tell us about something you enjoy doing for fun. This can be, but does not have to be, mathematically related. We are open to reading about anything you would like to share.
+                </p>
+                <textarea name="question-3" class="register-question" id="register-question-3" cols="30" rows="10"></textarea>
+                <input type="submit" value="Submit" name="submit" class="register-button" id="register-submit">
+            </div>
+
+            <div class="register-tab" id="register-questions">
+
+            </div>
+            <a class="log-in-link" href="log-in.html">Already a student? Log in here.</a>
+        </form>
+    </div>
+</body>
+</html>

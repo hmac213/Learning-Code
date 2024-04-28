@@ -1,0 +1,13 @@
+:root {
+    --primary-background: #f2f1f1;
+    --secondary-background: #36454F;
+    --primary-color: black;
+    --secondary-color: #f2f1f1;
+    --accent-color: #0077c0;
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+}

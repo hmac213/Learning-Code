@@ -12,3 +12,15 @@
     padding: 0;
     margin: 0;
 }
+
+.default-button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: var(--accent-color);
+    margin: auto 20px;
+    color: var(--secondary-color);
+}

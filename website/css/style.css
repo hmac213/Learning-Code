@@ -1,7 +1,7 @@
 .home-container {
     display: flex;
     position: absolute;
-    top: 50px;
+    top: var(--nav-height);
     bottom: 0;
     width: 100%;
     align-items: center;

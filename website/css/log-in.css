@@ -1,6 +1,6 @@
 .log-in-container {
     position: absolute;
-    top: 50px;
+    top: var(--nav-height);
     bottom: 0;
     width: 100vw;
     display: flex;

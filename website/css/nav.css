@@ -1,5 +1,9 @@
+:root {
+    --nav-height: 50px;
+}
+
 .nav-container {
-    height: 50px;
+    height: var(--nav-height);
     background-color: var(--secondary-background);
     display: flex;
     justify-content: space-between;

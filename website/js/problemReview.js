@@ -68,9 +68,9 @@ function createReview(problem) {
     problemContent.classList.add('problem-content');
 
     buttonContainer.className = 'problem-action-button-container';
-    problemAccept.className = 'problem-accept-button problem-action-button';
-    problemDeny.className = 'problem-deny-button problem-action-button';
-    problemModify.className = 'problem-modify-button problem-action-button';
+    problemAccept.className = 'problem-accept-button default-button';
+    problemDeny.className = 'problem-deny-button default-button';
+    problemModify.className = 'problem-modify-button default-button';
 
 }
 

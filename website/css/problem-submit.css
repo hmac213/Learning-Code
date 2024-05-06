@@ -1,0 +1,40 @@
+.problem-submit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: var(--nav-height);
+    bottom: 0;
+    width: 100%;
+}
+
+.problem-submit-header {
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.problem-submit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--tertiary-background);
+    width: 60%;
+    height: 40vh;
+}
+
+.problem-submit-form textarea {
+    box-sizing: border-box;
+    resize: none;
+    background-color: var(--primary-background);
+    width: 75%;
+    height: 50%;
+}
+
+.problem-submit-button {
+    display: block;
+    margin: 20px auto;
+}

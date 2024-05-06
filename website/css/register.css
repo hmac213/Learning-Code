@@ -10,13 +10,13 @@
 
 .register-form {
     width: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .register-tab {
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .register {
@@ -25,15 +25,10 @@
     margin-bottom: 20px;
 }
 
-.register-text, .register-inline {
+.register-text {
     width: 80%;
     height: 1.75rem;
     line-height: 1.5rem;
     font-size: 1rem;
     margin-bottom: 20px;
-}
-
-.register-inline {
-    display: inline-block;
-    width: 35%;
 }

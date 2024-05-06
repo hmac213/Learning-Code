@@ -1,0 +1,51 @@
+#problem-review-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.problem-review-header {
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.problem-container {
+    background-color: var(--tertiary-background);
+    border: none;
+    border-radius: 15px;
+    width: 60%;
+    margin: 10px 0px;
+    padding: 20px;
+}
+
+.problem-title {
+    color: var(--accent-color);
+    margin-bottom: 10px;
+}
+
+.problem-content {
+    color: var(--primary-color);
+}
+
+.problem-action-button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.problem-action-button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: var(--accent-color);
+    margin: auto 20px;
+    color: var(--secondary-color);
+}
